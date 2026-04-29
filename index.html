@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VC/PE 每周市场观察</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #f5f7fa; color: #1a1a2e; line-height: 1.6; }
+  .container { max-width: 880px; margin: 0 auto; padding: 32px 20px; }
+  header { text-align: center; padding: 32px 0 24px; }
+  header h1 { font-size: 1.6rem; font-weight: 700; color: #16213e; }
+  header p { color: #6b7280; font-size: 0.9rem; margin-top: 4px; }
+  section { background: #fff; border-radius: 12px; padding: 24px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+  section h2 { font-size: 1.1rem; font-weight: 600; color: #16213e; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 2px solid #eef1f5; }
+  ul { list-style: none; }
+  li { display: flex; align-items: center; padding: 10px 0; border-bottom: 1px solid #f0f0f5; gap: 12px; }
+  li:last-child { border-bottom: none; }
+  li.empty { color: #9ca3af; font-style: italic; }
+  .report-link { flex: 1; color: #2563eb; text-decoration: none; font-weight: 500; }
+  .report-link:hover { text-decoration: underline; }
+  .file-name { flex: 1; font-weight: 500; }
+  .file-size { color: #9ca3af; font-size: 0.85rem; white-space: nowrap; }
+  .btn { display: inline-block; padding: 4px 14px; border-radius: 6px; font-size: 0.8rem; text-decoration: none; font-weight: 500; background: #2563eb; color: #fff; white-space: nowrap; }
+  .btn:hover { background: #1d4ed8; }
+  footer { text-align: center; color: #9ca3af; font-size: 0.8rem; padding: 24px 0; }
+  @media (max-width: 600px) { .container { padding: 16px 12px; } section { padding: 16px; } li { flex-wrap: wrap; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>VC/PE 每周市场观察</h1>
+    <p>自动化周报系统 · 每周一更新</p>
+  </header>
+
+  <section>
+    <h2>&#128196; 历史周报</h2>
+    <ul>
+            <li>
+              <a href="docs/2026-04-30-weekly.md" class="report-link">2026-04-30</a>
+              <a href="docs/2026-04-30-weekly.md" class="btn" target="_blank">查看</a>
+            </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>&#128206; 可下载报告</h2>
+    <ul>
+            <li>
+              <span class="file-name">q2-2026-ai-investment-report.pdf</span>
+              <span class="file-size">(64.0 B)</span>
+              <a href="reports/q2-2026-ai-investment-report.pdf" class="btn" download>下载</a>
+            </li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>GitHub Actions &#43; DeepSeek 自动生成</p>
+  </footer>
+</div>
+</body>
+</html>
